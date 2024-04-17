@@ -1,6 +1,5 @@
 import { esEnteroPositivo } from './validacion.js';
 import { validarTipo } from './tarjetas.js';
-
 function validarTarjeta() {
     let numeroTarjeta = prompt("Ingrese el número de su tarjeta de crédito:");
     if (!esEnteroPositivo(numeroTarjeta) || numeroTarjeta.length > 16) {
@@ -11,5 +10,4 @@ function validarTarjeta() {
         alert("El tipo de tarjeta de crédito ingresado es: " + tipoTarjeta);
     }
 }
-
 validarTarjeta();

@@ -13,7 +13,6 @@ import { contarNumerosPares, promedioNumerosPares } from './numerosPares.js';
 function main() {
     let numeros = solicitarNumeros();
     let operacion = solicitarOperacion();
-
     switch (operacion) {
         case 'a':
             console.log("La suma de los números es:", numeros.reduce((a, b) => a + b, 0));
