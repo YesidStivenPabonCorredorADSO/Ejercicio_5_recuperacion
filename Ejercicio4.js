@@ -7,7 +7,6 @@ function encontrarPalabraMasLarga(...palabras) {
     }
     return palabraMasLarga;
 }
-
 function main() {
     let cantidad = parseInt(prompt("Ingrese la cantidad de palabras que desea ingresar:"));
     let palabras = [];
@@ -18,5 +17,4 @@ function main() {
     let palabraMasLarga = encontrarPalabraMasLarga(...palabras);
     console.log("La palabra más larga ingresada es:", palabraMasLarga);
 }
-
 main();

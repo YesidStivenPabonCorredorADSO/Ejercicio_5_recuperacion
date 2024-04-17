@@ -1,24 +1,24 @@
 class Calculadora {
-    static validarOperandos(...operandos) {
+     validarOperandos(...operandos) {
         for (let operando of operandos) {
             if (typeof operando !== 'number' || isNaN(operando)) {
                 throw new Error(`"${operando}" no es un número válido.`);
             }
         }
     }
-    static suma(a, b) {
+     suma(a, b) {
         this.validarOperandos(a, b);
         return a + b;
     }
-    static resta(a, b) {
+     resta(a, b) {
         this.validarOperandos(a, b);
         return a - b;
     }
-    static multiplicacion(a, b) {
+     multiplicacion(a, b) {
         this.validarOperandos(a, b);
         return a * b;
     }
-    static division(a, b) {
+     division(a, b) {
         this.validarOperandos(a, b);
         if (b === 0) {
             throw new Error("No se puede dividir por cero.");

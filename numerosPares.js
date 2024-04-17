@@ -7,7 +7,6 @@ export function contarNumerosPares(numeros) {
     }
     return contador;
 }
-
 export function promedioNumerosPares(numeros) {
     let suma = 0;
     let cantidad = 0;

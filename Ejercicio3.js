@@ -1,7 +1,6 @@
 function ordenarNumeros(...numeros) {
     return numeros.sort((a, b) => b - a);
 }
-
 function main() {
     let cantidad = parseInt(prompt("Ingrese la cantidad de números que desea ingresar:"));
     let numeros = [];
@@ -13,5 +12,4 @@ function main() {
     console.log("Números ordenados de mayor a menor:");
     console.table(numerosOrdenados);
 }
-
 main();

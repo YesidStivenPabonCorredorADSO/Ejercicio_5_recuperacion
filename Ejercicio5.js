@@ -1,5 +1,5 @@
 import Calculadora from './calculadora.js';
-
+const Calculadora = new Calculadora();
 try {
     console.log("Suma:", Calculadora.suma(5, 3));
     console.log("Resta:", Calculadora.resta(5, 3));

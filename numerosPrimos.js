@@ -5,7 +5,6 @@ export function esPrimo(numero) {
     }
     return true;
 }
-
 export function contarNumerosPrimos(numeros) {
     let contador = 0;
     for (let numero of numeros) {
@@ -15,7 +14,6 @@ export function contarNumerosPrimos(numeros) {
     }
     return contador;
 }
-
 export function promedioNumerosPrimos(numeros) {
     let suma = 0;
     let cantidad = 0;
