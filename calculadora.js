@@ -1,3 +1,4 @@
+export 
 class Calculadora {
      validarOperandos(...operandos) {
         for (let operando of operandos) {
@@ -20,10 +21,10 @@ class Calculadora {
     }
      division(a, b) {
         this.validarOperandos(a, b);
-        if (b === 0) {
+        if (b === 0 || a===0) {
             throw new Error("No se puede dividir por cero.");
         }
         return a / b;
     }
 }
-export default Calculadora;
+ Calculadora;
