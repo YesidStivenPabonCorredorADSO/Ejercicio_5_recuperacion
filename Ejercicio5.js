@@ -4,7 +4,7 @@ try {
     console.log("Suma:", calculadora.suma(5, 3));
     console.log("Resta:", calculadora.resta(5, 3));
     console.log("Multiplicación:", calculadora.multiplicacion(5, 3));
-    console.log("División:", calculadora.division(5,6 ));
+    console.log("División:", calculadora.division(8,4 ));
 } catch (error) {
     console.error("Error:", error.message);
 }
